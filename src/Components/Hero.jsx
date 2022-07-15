@@ -27,19 +27,19 @@ const Hero = () => {
 
       </div>
       <div className="flex flex-col">
-      <h1 className="landscape:hidden sm:hidden flex  text-5xl -mt-40 mb-5 font-normal justify-center text-center text-[#2B2F4A]">
+      <h1 className=" md:hidden flex  text-5xl -mt-40 mb-5 font-normal justify-center text-center text-[#2B2F4A]">
             Next generation
             <br />
             digital banking
           </h1>
-          <p className="landscape:hidden sm:hidden text-gray-400 text-md text-center mb-5 ">
+          <p className="sm:hidden text-gray-400 text-md text-center mb-5 ">
             Take your financial life online. Your Easybank
             <br />
             account will be a one-stop-shop for spending,
             <br />
             saving, budgeting, investing, and much more.
           </p>
-          <div className="flex sm:hidden pb-10 justify-center">
+          <div className="flex md:hidden pb-10 justify-center">
           <Button text="Request Invite"/>
           </div>
         </div>
@@ -48,7 +48,7 @@ const Hero = () => {
 
       <div className="hidden sm:flex sm:pl-20 md:pl-20 lg:pl-32 xl:pl-40 2xl:pl-40">
         <div className="flex w-2/5 flex-col sm:mt-10 md:mt-16 lg:mt-24 xl:mt-28 2xl:mt-28 order-3">
-          <h1 className="text3-xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-5xl 2xl:text-5xl font-normal text-[#2B2F4A]">
+          <h1 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-5xl 2xl:text-5xl font-normal text-[#2B2F4A]">
             Next generation
             <br />
             digital banking

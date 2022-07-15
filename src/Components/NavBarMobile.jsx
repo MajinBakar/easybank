@@ -21,11 +21,11 @@ const NavBarMobile = () => {
     </div>
 
     <ul className={hamburger ? 'mobilemenu absolute w-10/12 backdrop-opacity-50 top-[4.5rem] left-0 right-0 mx-auto bg-white rounded-md p-3 text-center text-[#2d314d] font-medium text-lg shadow-2xl transition-all ease-in-out duration-200' : ' transition-all ease-in-out duration-200 hidden'} >
-        <li className='py-2' onClick={handleHamburger}>Home</li>
-        <li className='py-2' onClick={handleHamburger}>About</li>
-        <li className='py-2' onClick={handleHamburger}>Contact</li>
-        <li className='py-2' onClick={handleHamburger}>Blog</li>
-        <li className='py-2' onClick={handleHamburger}>Careers</li>
+        <li className='py-2 cursor-pointer' onClick={handleHamburger}>Home</li>
+        <li className='py-2 cursor-pointer' onClick={handleHamburger}>About</li>
+        <li className='py-2 cursor-pointer' onClick={handleHamburger}>Contact</li>
+        <li className='py-2 cursor-pointer' onClick={handleHamburger}>Blog</li>
+        <li className='py-2 cursor-pointer' onClick={handleHamburger}>Careers</li>
     </ul>
     </nav>  )
 }
